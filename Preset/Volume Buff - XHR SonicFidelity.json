@@ -1,0 +1,36 @@
+{
+    "output": {
+        "blocklist": [],
+        "convolver#1": {
+            "autogain": true,
+            "bypass": false,
+            "dry": -100.0,
+            "input-gain": 0.0,
+            "ir-width": 100,
+            "kernel-name": "XHR SonicFidelity",
+            "output-gain": 0.0,
+            "sofa": {
+                "azimuth": 0.0,
+                "elevation": 0.0,
+                "radius": 1.0
+            },
+            "wet": 0.0
+        },
+        "loudness#1": {
+            "bypass": false,
+            "clipping": false,
+            "clipping-range": 6.0,
+            "fft": "4096",
+            "iir-approximation": "Normal",
+            "input-gain": 0.0,
+            "mode": "FFT",
+            "output-gain": 0.0,
+            "std": "ISO226-2023",
+            "volume": 7.0
+        },
+        "plugins_order": [
+            "convolver#1",
+            "loudness#1"
+        ]
+    }
+}
